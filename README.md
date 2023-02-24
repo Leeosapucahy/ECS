@@ -4,7 +4,7 @@
       
       - 4 Services
       - 4 Tasks definitios
-      - 4 Repositories 
+      - 4 Repositories ECR
       - 1 Security Group
       - 2 Subnets 
       

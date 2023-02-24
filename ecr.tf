@@ -1,5 +1,5 @@
-resource "aws_ecr_repository" "repository_custodia" {
-  name = "sin/custodia"
+resource "aws_ecr_repository" "repository_coloque aqui o nome do repositorio" {
+  name = "coloque aqui o nome do repositorio"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
@@ -7,8 +7,8 @@ resource "aws_ecr_repository" "repository_custodia" {
   }
 }
 
-resource "aws_ecr_repository" "repository_suprimentos" {
-  name = "sin-itau/suprimentos"
+resource "aws_ecr_repository" "repository_coloque aqui o nome do repositorio" {
+  name = "coloque aqui o nome do repositorio"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
@@ -16,8 +16,8 @@ resource "aws_ecr_repository" "repository_suprimentos" {
   }
 }
 
-resource "aws_ecr_repository" "repository_coletas" {
-  name = "sin-itau/coletas"
+resource "aws_ecr_repository" "repository_coloque aqui o nome do repositorio" {
+  name = "coloque aqui o nome do repositorio"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
@@ -25,8 +25,8 @@ resource "aws_ecr_repository" "repository_coletas" {
   }
 }
 
-resource "aws_ecr_repository" "repository_pedidos" {
-  name = "sin/pedidos"
+resource "aws_ecr_repository" "repository_coloque aqui o nome do repositorio" {
+  name = "coloque aqui o nome do repositorio"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {

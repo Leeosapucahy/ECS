@@ -18,5 +18,5 @@
   - Já o arquivo variables.tf é necessário pois lá está salvo o valor das variáveis que são referenciadas no restante do código
   
   - Importante! Não se esqueca de "tagear" os seus recursos, para não ficar perdido quando eles estiverem na AWS.
-  
+    
   - Espero que ajude! (;

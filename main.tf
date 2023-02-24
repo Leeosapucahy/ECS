@@ -5,7 +5,7 @@ data "aws_iam_role" "ecs_task_execution_role"{
 }
 
 resource "aws_ecs_cluster" "cluster" {
-  name = "sin-itau-nprod"
+  name = "coloque aqui o nome do cluster"
 }
 
 resource "aws_ecs_task_definition" "custodia-dev" {
